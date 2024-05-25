@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   // add to head
   app: {
     head: {
+      title: "Guillermo Croppi - Software Engineer",
       meta: [
         {
           charset: "utf-8",
