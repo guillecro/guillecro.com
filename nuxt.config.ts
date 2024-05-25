@@ -10,6 +10,35 @@ export default defineNuxtConfig({
   // add to head
   app: {
     head: {
+      meta: [
+        {
+          charset: "utf-8",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1",
+        },
+        {
+          name: "description",
+          content: "Website about me, and to keep track of my footprints. Passionate about democracy, technology, and their intersection in shaping the future of governance and citizen participation. Fullstack Web Developer and multidisciplinary system engineer.",
+        },
+        {
+          name: "og:title",
+          content: "Guillermo Croppi - Software Engineer",
+        },
+        {
+          name: "og:description",
+          content: "Website about me, and to keep track of my footprints. Passionate about democracy, technology, and their intersection in shaping the future of governance and citizen participation. Fullstack Web Developer and multidisciplinary system engineer.",
+        },
+        {
+          name: "og:image",
+          content: "https://guillecro.com/202405-sharer.jpg",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        }
+      ],
       link: [
         {
           rel: "stylesheet",
